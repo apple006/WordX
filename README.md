@@ -1,12 +1,12 @@
-调用方法: `WordX.parse(file, entity, dataMap);`
-    file:Word源文件,只支持.docx格式
-    entity:要输出其属性的实体对象
-    dataMap：补充的自定义属性与值HashMap
-只能运行于Java8及以上版本
+调用方法: `WordX.parse(file, entity, dataMap);`  
+    file:Word源文件,只支持.docx格式  
+    entity:要输出其属性的实体对象  
+    dataMap：补充的自定义属性与值HashMap  
+只能运行于Java8及以上版本  
 
-### WordX根据Word中的书签来绑定数据的。书签的某些内容有特殊含义。
-`CompanyName` 将会输出对象的CompanyName属性值。
-`CompanyName_56` WordX会忽略最末尾的_数字，所以最终效果跟上面是一样的。
+### WordX根据Word中的书签来绑定数据的。书签的某些内容有特殊含义。  
+`CompanyName` 将会输出对象的CompanyName属性值。  
+`CompanyName_56` WordX会忽略最末尾的_数字，所以最终效果跟上面是一样的。  
 `CompanyName_EW` 输出对象的CompanyName属性值。并且会在两端补空格，使跟书签选中的Word内容字符数相同。
 `CompanyName_8W` 输出对象的CompanyName属性值。当长度超过8个英文字符时将截断。
 `CompanyName_EW_8W_56` 多个修饰写在一起也是可以的。
