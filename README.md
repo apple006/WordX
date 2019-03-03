@@ -11,7 +11,7 @@
 `CompanyName_8W` 输出对象的CompanyName属性值。当长度超过8个英文字符时将截断。  
 `CompanyName_EW_8W_56` 多个修饰写在一起也是可以的。  
 `Accept_Check` 如果Accept属性值不等于0或空，书签选中的Word内容的方框字符“□”，将会打上勾。  
-　　对于WPS用户来说，凡是方框打勾的字符，需要安装Wingdings2字体才看得见。
+　　对于WPS用户来说，凡是方框打勾的字符，需要安装Wingdings2字体才看得见。  
 `Sex_2_Radio` 如果Sex属性值等于中间的数字2，书签选中的Word内容的方框字符“□”，将会打上勾。  
 `Sex_00_Radio` 如果书签选中的Word内容包含Sex属性值，则书签选中的Word内容的方框字符“□”，将会打上勾。  
 `UpdatedAt_Fmt` 对UpdatedAt属性值格式化后输出。格式化字符串为书签选中的Word内容。  
